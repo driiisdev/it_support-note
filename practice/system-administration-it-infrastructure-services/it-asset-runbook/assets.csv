@@ -1,0 +1,11 @@
+asset_tag,type,model,serial,status,assigned_to,location,purchased,warranty_end,notes
+IT-0001,laptop,Dell Latitude 5440,8XK2Q73,deployed,amina.bello,HQ-2F,2024-01-15,2027-01-15,
+IT-0002,laptop,Dell Latitude 5440,9FJ3R81,deployed,tunde.okafor,HQ-3F,2024-01-15,2027-01-15,
+IT-0003,laptop,Lenovo ThinkPad T14,PF3ABC12,in-repair,chen.wei,HQ-2F,2022-06-01,2025-06-01,keyboard replacement
+IT-0004,desktop,HP EliteDesk 800 G6,CZC1234XYZ,deployed,reception,HQ-1F,2021-03-10,2024-03-10,
+IT-0005,laptop,Apple MacBook Air M2,C02XYZ1234,in-stock,,IT-store,2025-09-01,2026-09-01,spare for new hires
+IT-0006,server,Dell PowerEdge R650,7GH8J90,deployed,infrastructure,Server-room-R1-U12,2023-02-20,2028-02-20,hypervisor host 1
+IT-0007,printer,HP LaserJet M507,PHBX123456,deployed,floor-2,HQ-2F,2020-11-05,2023-11-05,DHCP reservation 10.20.2.34
+IT-0008,laptop,Dell Latitude 7420,4KL9M22,retired,,disposal,2019-05-01,2022-05-01,wiped (NIST 800-88 purge) - cert #D-4471
+IT-0009,switch,Cisco Catalyst 9200-48P,FOC2345X0AB,deployed,infrastructure,Server-room-R1-U40,2023-02-20,2028-02-20,core access switch
+IT-0010,laptop,Lenovo ThinkPad T14,PF3DEF34,deployed,sara.nguyen,HQ-3F,2024-11-12,2026-11-30,

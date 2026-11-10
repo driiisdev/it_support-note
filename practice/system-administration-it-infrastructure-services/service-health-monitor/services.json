@@ -1,0 +1,16 @@
+{
+  "services": [
+    {"name": "Lab web app (local)",   "type": "http", "url": "http://127.0.0.1:8080/health", "expect_text": "ok", "max_ms": 300},
+    {"name": "Lab web app - slow page","type": "http", "url": "http://127.0.0.1:8080/slow", "max_ms": 500},
+    {"name": "Lab web app - broken",  "type": "http", "url": "http://127.0.0.1:8080/broken"},
+    {"name": "Lab SMTP (nothing)",    "type": "tcp",  "host": "127.0.0.1", "port": 2525},
+
+    {"name": "Public website",        "type": "http", "url": "https://www.google.com/", "expect_text": "Google", "max_ms": 1500},
+    {"name": "Google SMTP submission","type": "tcp",  "host": "smtp.gmail.com", "port": 587},
+    {"name": "Google IMAPS",          "type": "tcp",  "host": "imap.gmail.com", "port": 993},
+    {"name": "Cert: github.com",      "type": "tls",  "host": "github.com", "warn_days": 21},
+    {"name": "Cert: expired (demo)",  "type": "tls",  "host": "expired.badssl.com"},
+    {"name": "Cert: self-signed (demo)","type": "tls","host": "self-signed.badssl.com"},
+    {"name": "Cert: wrong host (demo)","type": "tls", "host": "wrong.host.badssl.com"}
+  ]
+}

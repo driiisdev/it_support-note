@@ -1,0 +1,15 @@
+{
+  "roles": {
+    "helpdesk":  ["tickets:read", "tickets:write", "users:reset-password", "users:unlock"],
+    "finance":   ["finance-share:read", "finance-share:write", "tickets:create"],
+    "hr":        ["hr-share:read", "hr-share:write", "users:read", "tickets:create"],
+    "it-admin":  ["*"],
+    "staff":     ["tickets:create", "intranet:read"]
+  },
+  "user_roles": {
+    "amina": ["staff", "finance"],
+    "tunde": ["staff", "helpdesk"],
+    "chen":  ["staff", "hr"],
+    "admin": ["it-admin"]
+  }
+}

@@ -1,0 +1,19 @@
+{"host": "RECEPTION-PC", "os": "Microsoft Windows 10 Pro", "elevated": true, "collected": "2026-03-04T10:15:00",
+ "results": [
+  {"layer": "firewall", "check": "Domain profile", "status": "PASS", "detail": "enabled, inbound default Block", "fix": ""},
+  {"layer": "firewall", "check": "Private profile", "status": "PASS", "detail": "enabled, inbound default Block", "fix": ""},
+  {"layer": "firewall", "check": "Public profile", "status": "FAIL", "detail": "disabled", "fix": "Set-NetFirewallProfile -Name Public -Enabled True"},
+  {"layer": "antimalware", "check": "Defender real-time protection", "status": "PASS", "detail": "on", "fix": ""},
+  {"layer": "antimalware", "check": "Signature age", "status": "WARN", "detail": "6 day(s) old", "fix": "Update-MpSignature"},
+  {"layer": "patching", "check": "Last update installed", "status": "FAIL", "detail": "KB5021233 on 2025-11-12 (112 days ago)", "fix": "Run Windows Update"},
+  {"layer": "patching", "check": "Uptime", "status": "WARN", "detail": "41 day(s) since last reboot", "fix": "Reboot to finish installing updates"},
+  {"layer": "encryption", "check": "BitLocker C:", "status": "FAIL", "detail": "protection Off", "fix": "Enable BitLocker and escrow the recovery key"},
+  {"layer": "accounts", "check": "Local Administrators members", "status": "WARN", "detail": "4: RECEPTION-PC\\Administrator, CORP\\Domain Admins, CORP\\reception, CORP\\temp-agency", "fix": "Remove users who don't need admin"},
+  {"layer": "accounts", "check": "Built-in Administrator", "status": "WARN", "detail": "enabled", "fix": "Disable-LocalUser -Name 'Administrator'"},
+  {"layer": "accounts", "check": "Guest account", "status": "PASS", "detail": "disabled", "fix": ""},
+  {"layer": "accounts", "check": "UAC", "status": "PASS", "detail": "enabled", "fix": ""},
+  {"layer": "surface", "check": "SMBv1 server", "status": "FAIL", "detail": "ENABLED", "fix": "Set-SmbServerConfiguration -EnableSMB1Protocol $false"},
+  {"layer": "surface", "check": "Remote Desktop", "status": "FAIL", "detail": "enabled (NLA OFF)", "fix": "Disable RDP if unused; otherwise require NLA"},
+  {"layer": "surface", "check": "AutoRun for all drives", "status": "WARN", "detail": "not set by policy", "fix": "Set NoDriveTypeAutoRun=255 via Group Policy"},
+  {"layer": "surface", "check": "Ports listening on all interfaces", "status": "WARN", "detail": "135, 445, 3389, 5357", "fix": "Review each port"}
+ ]}

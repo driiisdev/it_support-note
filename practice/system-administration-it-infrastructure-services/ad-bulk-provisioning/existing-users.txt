@@ -1,0 +1,7 @@
+# sAMAccountNames that already exist in the directory (export with:
+#   Get-ADUser -Filter * | Select-Object -ExpandProperty SamAccountName > existing-users.txt )
+abello
+s.nguyen
+i.yakub
+k.adeyemi
+m.owens

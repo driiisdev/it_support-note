@@ -1,0 +1,13 @@
+{
+  "collected_at": "2026-03-02T09:01:44",
+  "hostname": "DEV-LX-021",
+  "user": "t.nguyen",
+  "os": {"system": "Linux", "release": "6.8.0-45-generic", "version": "#45-Ubuntu SMP", "architecture": "x86_64"},
+  "cpu": {"model": "Intel(R) Core(TM) i7-12700H", "logical_cores": 20},
+  "ram_gb": 31.2,
+  "disks": [{"mount": "/", "total_gb": 915.8, "free_gb": 612.4, "used_pct": 33.1}],
+  "network": {"primary_ip": "10.10.8.55", "mac": "8C:16:45:AA:10:2F"},
+  "uptime_hours": 120.0,
+  "python": "3.12.3",
+  "warnings": []
+}

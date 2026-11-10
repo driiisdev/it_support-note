@@ -1,0 +1,15 @@
+{
+  "build_name": "Standard Office Workstation",
+  "version": "2026.03",
+  "apps": [
+    {"name": "7-Zip",          "winget": "7zip.7zip",                "apt": "p7zip-full",  "required": true},
+    {"name": "Google Chrome",  "winget": "Google.Chrome",            "apt": null,          "required": true},
+    {"name": "Firefox",        "winget": "Mozilla.Firefox",          "apt": "firefox",     "required": false},
+    {"name": "VLC",            "winget": "VideoLAN.VLC",             "apt": "vlc",         "required": false},
+    {"name": "Notepad++",      "winget": "Notepad++.Notepad++",      "apt": null,          "required": false},
+    {"name": "Adobe Reader",   "winget": "Adobe.Acrobat.Reader.64-bit", "apt": null,       "required": true},
+    {"name": "Git",            "winget": "Git.Git",                  "apt": "git",         "required": false},
+    {"name": "htop",           "winget": null,                       "apt": "htop",        "required": false},
+    {"name": "curl",           "winget": null,                       "apt": "curl",        "required": true}
+  ]
+}

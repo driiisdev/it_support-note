@@ -1,0 +1,25 @@
+Return-Path: <k.adeyemi.ceo@freemail.example.net>
+Received: from smtp.freemail.example.net (smtp.freemail.example.net [203.0.113.80])
+	by mx1.example-corp.com with ESMTPS id 9C77B; Thu, 5 Mar 2026 16:48:02 +0000
+Authentication-Results: mx1.example-corp.com;
+	spf=pass smtp.mailfrom=freemail.example.net;
+	dkim=pass header.d=freemail.example.net;
+	dmarc=pass header.from=freemail.example.net
+From: "Kemi Adeyemi (CEO)" <k.adeyemi.ceo@freemail.example.net>
+Reply-To: k.adeyemi.ceo@freemail.example.net
+To: tunde.okafor@example-corp.com
+Subject: Quick favour - are you at your desk?
+Date: Thu, 5 Mar 2026 16:47:59 +0000
+Message-ID: <77d1@smtp.freemail.example.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Tunde,
+
+I'm in a board meeting and can't talk. I need you to buy 5 gift cards (200 each) for a client
+appreciation event today - it's urgent and confidential, please don't mention it to anyone yet.
+
+Scratch the codes and send me photos by reply as soon as possible. I'll reimburse you tomorrow.
+
+Sent from my iPhone
+Kemi

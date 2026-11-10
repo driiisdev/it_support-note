@@ -1,0 +1,12 @@
+id,action,proto,src,dst,port,owner,comment
+1,allow,tcp,any,203.0.113.10,443,web-team,public website HTTPS
+2,allow,tcp,any,203.0.113.10,80,web-team,HTTP redirect to HTTPS
+3,allow,tcp,10.10.0.0/16,10.20.0.0/24,any,,
+4,allow,tcp,10.10.0.0/16,10.20.0.10,445,it-ops,staff -> file server SMB
+5,allow,tcp,any,10.20.0.15,3389,,temp access for vendor - remove after March
+6,allow,udp,10.0.0.0/8,10.20.0.53,53,it-ops,internal DNS
+7,deny,any,10.30.0.0/24,10.20.0.0/16,any,security,guests may not reach servers
+8,allow,tcp,10.30.0.0/24,10.20.0.25,443,it-ops,guest captive portal
+9,allow,any,any,any,any,,troubleshooting - TODO remove
+10,allow,tcp,any,10.20.0.40,3306,dev-team,reporting database
+11,allow,tcp,10.10.5.0/24,10.20.0.10,445,it-ops,finance -> file server

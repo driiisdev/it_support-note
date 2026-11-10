@@ -1,0 +1,8 @@
+description,proto,src,dst,port,expected
+internet user -> website,tcp,198.51.100.7,203.0.113.10,443,allow
+internet user -> RDP on server,tcp,198.51.100.7,10.20.0.15,3389,deny
+staff -> file server SMB,tcp,10.10.4.20,10.20.0.10,445,allow
+guest -> file server SMB,tcp,10.30.0.50,10.20.0.10,445,deny
+guest -> captive portal,tcp,10.30.0.50,10.20.0.25,443,allow
+internet -> reporting database,tcp,198.51.100.7,10.20.0.40,3306,deny
+internet -> telnet on core switch,tcp,198.51.100.7,10.20.0.1,23,deny

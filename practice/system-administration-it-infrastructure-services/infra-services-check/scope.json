@@ -1,0 +1,19 @@
+{
+  "name": "HQ-Floor2-Staff (VLAN 10) - contains deliberate mistakes, fix them!",
+  "subnet": "10.20.0.0/24",
+  "gateway": "10.20.0.1",
+  "pool": {"start": "10.20.0.1", "end": "10.20.0.150"},
+  "exclusions": ["10.20.0.20"],
+  "dns_servers": ["10.20.2.10", "10.20.2.11"],
+  "lease_hours": 8,
+  "expected_clients": 180,
+  "reservations": [
+    {"name": "printer-2F",   "mac": "AA:BB:CC:00:00:50", "ip": "10.20.0.200"},
+    {"name": "scanner-2F",   "mac": "AA:BB:CC:00:00:51", "ip": "10.20.0.200"},
+    {"name": "meeting-tv",   "mac": "AA:BB:CC:00:00:52", "ip": "10.20.0.120"}
+  ],
+  "static_devices": [
+    {"name": "door-controller", "ip": "10.20.0.20"},
+    {"name": "ip-camera-lobby", "ip": "10.20.0.30"}
+  ]
+}

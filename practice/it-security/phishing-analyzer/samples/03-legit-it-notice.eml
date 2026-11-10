@@ -1,0 +1,23 @@
+Return-Path: <it-service-desk@example-corp.com>
+Received: from mail.example-corp.com (mail.example-corp.com [192.0.2.25])
+	by mx1.example-corp.com with ESMTPS id 11AB2; Mon, 2 Mar 2026 09:00:03 +0000
+Authentication-Results: mx1.example-corp.com;
+	spf=pass smtp.mailfrom=example-corp.com;
+	dkim=pass header.d=example-corp.com;
+	dmarc=pass header.from=example-corp.com
+From: "IT Service Desk" <it-service-desk@example-corp.com>
+To: all-staff@example-corp.com
+Subject: Planned maintenance Saturday 22:00-02:00
+Date: Mon, 2 Mar 2026 09:00:00 +0000
+Message-ID: <maint-0302@mail.example-corp.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Hello everyone,</p>
+<p>Servers will be patched this Saturday between 22:00 and 02:00. Email and file shares may be
+unavailable for short periods. No action is needed from you.</p>
+<p>Details are on the intranet: <a href="https://intranet.example-corp.com/it/maintenance">https://intranet.example-corp.com/it/maintenance</a></p>
+<p>Reminder: IT will never ask for your password by email.</p>
+<p>IT Service Desk - ext. 4357</p>
+</body></html>

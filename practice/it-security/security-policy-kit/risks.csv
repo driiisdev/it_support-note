@@ -1,0 +1,11 @@
+id,risk,asset,likelihood,impact,owner,response,control,status
+R1,Phishing leads to stolen Microsoft 365 credentials,email accounts,5,4,IT,mitigate,MFA for all users + phishing training,in progress
+R2,Ransomware encrypts the file server,file server,3,5,IT,mitigate,offline/immutable backups + EDR + patching,in progress
+R3,Laptop lost or stolen with unencrypted data,laptops,3,4,IT,mitigate,BitLocker on all laptops with key escrow,open
+R4,Unpatched VPN appliance exploited,VPN gateway,2,5,Network,mitigate,monthly patch window + vendor advisories,done
+R5,Former employee keeps access after leaving,accounts,3,3,HR + IT,mitigate,offboarding checklist triggered by HR,open
+R6,Key admin leaves and nothing is documented,IT knowledge,2,3,IT manager,mitigate,runbooks + password manager,open
+R7,Office internet outage stops cloud work,internet link,2,3,IT,transfer,second ISP / 5G failover router,open
+R8,Payroll vendor suffers a data breach,payroll data,2,4,Finance,transfer,vendor security review + contract clauses + cyber insurance,open
+R9,Visitor plugs into an open network port,office network,2,2,Network,accept,documented decision: guest VLAN by default on lobby ports,accepted
+R10,USB drive with malware plugged into a PC,workstations,3,3,IT,mitigate,block USB storage via GPO + AutoRun off,open

@@ -1,0 +1,11 @@
+name,type,expected
+# Real public records used so the check has something live to verify. Replace with your own domain's records.
+example.com,A,*
+example.com,NS,*
+gmail.com,MX,gmail-smtp-in.l.google.com
+gmail.com,TXT,v=spf1
+www.github.com,CNAME,github.com
+cloudflare.com,AAAA,*
+# Deliberate failures so you can see what drift looks like:
+gmail.com,MX,mail.example.com
+does-not-exist.example,A,192.0.2.10

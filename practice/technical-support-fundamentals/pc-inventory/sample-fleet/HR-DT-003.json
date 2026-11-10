@@ -1,0 +1,13 @@
+{
+  "collected_at": "2026-03-02T08:20:10",
+  "hostname": "HR-DT-003",
+  "user": "a.bello",
+  "os": {"system": "Windows", "release": "11", "version": "10.0.22631", "architecture": "AMD64"},
+  "cpu": {"model": "AMD Ryzen 5 PRO 5650G", "logical_cores": 12},
+  "ram_gb": 15.8,
+  "disks": [{"mount": "C:\\", "total_gb": 476.3, "free_gb": 301.9, "used_pct": 36.6}],
+  "network": {"primary_ip": "10.10.6.12", "mac": "00:1A:2B:3C:4D:5E"},
+  "uptime_hours": 9.3,
+  "python": "3.12.6",
+  "warnings": []
+}

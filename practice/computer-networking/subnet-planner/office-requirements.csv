@@ -1,0 +1,8 @@
+name,vlan,hosts
+Staff,10,180
+Guest-WiFi,20,100
+VoIP-Phones,30,60
+Servers,40,20
+Printers,50,12
+Management,99,8
+Point-to-Point,100,2

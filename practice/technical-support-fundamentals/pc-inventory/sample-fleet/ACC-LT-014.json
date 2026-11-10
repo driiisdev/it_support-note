@@ -1,0 +1,17 @@
+{
+  "collected_at": "2026-03-02T08:14:55",
+  "hostname": "ACC-LT-014",
+  "user": "m.okafor",
+  "os": {"system": "Windows", "release": "11", "version": "10.0.22631", "architecture": "AMD64"},
+  "cpu": {"model": "Intel(R) Core(TM) i5-1145G7 @ 2.60GHz", "logical_cores": 8},
+  "ram_gb": 7.8,
+  "disks": [{"mount": "C:\\", "total_gb": 237.3, "free_gb": 11.2, "used_pct": 95.3}],
+  "network": {"primary_ip": "10.10.4.37", "mac": "3C:52:82:1A:9F:00"},
+  "uptime_hours": 501.6,
+  "python": "3.12.6",
+  "warnings": [
+    "Only 7.8 GB RAM - expect slowness with modern browsers/Office.",
+    "Disk C:\\ is 95.3% full (11.2 GB free).",
+    "Up for 21 days - pending updates need a reboot."
+  ]
+}
