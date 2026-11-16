@@ -14,10 +14,8 @@ monitoring traffic so you notice attacks.
 - **Flood guards** - detect and block floods (SYN floods, etc.).
 - Disable unused switch ports and services; change default credentials on every device.
 
-> 🖼️ **Image idea: segmented office network** - firewall in the middle, separate VLANs for Staff,
-> Guests, Servers, IoT, with arrows showing which flows are allowed.
-> Suggested file: `assets/img/network-segmentation.png`
-<!-- ![network segmentation](<../../assets/img/network-segmentation.png>) -->
+> 🖼️ **Image idea: segmented office network**
+![network segmentation](<../../assets/img/network-segmentation.png>)
 
 ## Network hardware hardening (switch features)
 

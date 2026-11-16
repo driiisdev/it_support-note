@@ -86,10 +86,8 @@ timedatectl                     # Linux: is NTP synchronized?
 chronyc sources                 # if using chrony
 ```
 
-> 🖼️ **Image idea: NTP stratum hierarchy** - pyramid from stratum 0 (atomic clock) down to office
-> laptops.
-> Suggested file: `assets/img/ntp-stratum.png`
-<!-- ![ntp stratum](<../../assets/img/ntp-stratum.png>) -->
+> 🖼️ **Image idea: NTP stratum hierarchy**
+![ntp stratum](<../../assets/img/ntp-stratum.png>)
 
 ## Network support services
 

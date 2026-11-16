@@ -35,10 +35,8 @@ Sending = wrapping downward. Receiving = unwrapping upward. Each device only loo
 it cares about: a switch reads the Ethernet header; a router reads the IP header; only the end
 hosts look at TCP and HTTP.
 
-> 🖼️ **Image idea: encapsulation diagram** - nested boxes like the ASCII above, color-coded per
-> layer, with sender on the left (wrapping) and receiver on the right (unwrapping).
-> Suggested file: `assets/img/encapsulation.png`
-<!-- ![encapsulation](<../../assets/img/encapsulation.png>) -->
+> 🖼️ **encapsulation diagram**
+![encapsulation](<../../assets/img/encapsulation.png>)
 
 ## Physical layer
 
@@ -124,9 +122,8 @@ full-duplex switched networks collisions don't happen, but this is why the old h
 - **FCS (Frame Check Sequence)** - a **CRC** checksum. If it doesn't match, the frame is
   dropped. Ethernet *detects* errors but doesn't *fix* them - higher layers (TCP) retransmit.
 
-> 🖼️ **Image idea: Ethernet frame layout** - the frame above as a colored bar with byte sizes.
-> Suggested file: `assets/img/ethernet-frame.png`
-<!-- ![ethernet frame](<../../assets/img/ethernet-frame.png>) -->
+> 🖼️ **Ethernet frame layout**
+![ethernet frame](<../../assets/img/ethernet-frame.png>)
 
 ### VLANs
 

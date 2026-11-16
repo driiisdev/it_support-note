@@ -25,10 +25,8 @@ Linux:    /home/amina/Documents/report.docx          (forward slash, single root
 - Paths with spaces need quotes: `cd "C:\Program Files"`.
 - Linux paths are **case-sensitive** (`Report.txt` ≠ `report.txt`); Windows paths are not.
 
-> 🖼️ **Image idea: directory tree comparison** - Windows `C:\` tree (Users, Windows, Program Files)
-> next to the Linux `/` tree (home, etc, var, usr, bin, tmp) with each folder's purpose.
-> Suggested file: `assets/img/fs-hierarchy-windows-vs-linux.png`
-<!-- ![filesystem hierarchy](<../../assets/img/fs-hierarchy-windows-vs-linux.png>) -->
+> 🖼️ **Image idea: directory tree comparison**
+![filesystem hierarchy](<../../assets/img/fs-hierarchy-windows-vs-linux.png>)
 
 ### Important Linux directories
 

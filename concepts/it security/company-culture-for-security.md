@@ -24,10 +24,8 @@ Risk = Likelihood x Impact
 | **High likelihood** | medium - fix soon | **high - fix first** |
 | **Low likelihood** | low - accept/monitor | medium - plan |
 
-> 🖼️ **Image idea: risk matrix heat map** - 5×5 grid of likelihood vs impact, colored green →
-> red, with a few example risks plotted.
-> Suggested file: `assets/img/risk-matrix.png`
-<!-- ![risk matrix](<../../assets/img/risk-matrix.png>) -->
+> 🖼️ **Image idea: risk matrix heat map**
+![risk matrix](<../../assets/img/risk-matrix.png>)
 
 Ways to find and measure risk:
 
@@ -108,10 +106,8 @@ Preparation -> Detection & reporting -> Containment -> Analysis -> Eradication/r
 | **Recovery** | restore systems from clean backups, monitor for reinfection, return to normal |
 | **Lessons learned** | blameless post-incident review → update plans and controls |
 
-> 🖼️ **Image idea: incident response lifecycle** - circular diagram of the phases, with
-> "lessons learned" feeding back into "preparation".
-> Suggested file: `assets/img/incident-response-lifecycle.png`
-<!-- ![incident response lifecycle](<../../assets/img/incident-response-lifecycle.png>) -->
+> 🖼️ **Image idea: incident response lifecycle**
+![incident response lifecycle](<../../assets/img/incident-response-lifecycle.png>)
 
 ### First-responder rules for IT support
 

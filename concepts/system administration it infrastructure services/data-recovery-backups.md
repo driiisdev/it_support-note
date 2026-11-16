@@ -39,10 +39,8 @@ Diff:               [M]     [M+T]   [M+T+W]     restore Wed = F + Diff(Wed)
 Incr:               [M]     [T]     [W]         restore Wed = F + M + T + W
 ```
 
-> 🖼️ **Image idea: full vs differential vs incremental** - a week of colored bars for each strategy
-> showing what each backup contains and which files a Wednesday restore needs.
-> Suggested file: `assets/img/backup-types.png`
-<!-- ![backup types](<../../assets/img/backup-types.png>) -->
+> 🖼️ **Image idea: full vs differential vs incremental**
+![backup types](<../../assets/img/backup-types.png>)
 
 ## The 3-2-1 rule
 

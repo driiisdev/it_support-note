@@ -47,10 +47,8 @@ goes layer by layer in depth.
 
 Home "routers" are usually all of these in one box: router + switch + Wi-Fi AP + often modem.
 
-> 🖼️ **Image idea: home/small-office network diagram** - ISP → modem → router → switch + AP →
-> devices, like the ASCII art above but with real device icons.
-> Suggested file: `assets/img/small-office-network.png`
-<!-- ![small office network](<../../assets/img/small-office-network.png>) -->
+> 🖼️ **home/small-office network diagram**
+![small office network](<../../assets/img/small-office-network.png>)
 
 ## Cables and wireless
 

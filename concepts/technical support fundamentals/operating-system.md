@@ -54,10 +54,8 @@ Power on
   -> Login screen
 ```
 
-> 🖼️ **Image idea: boot process flowchart** - the steps above as a vertical flowchart with the
-> Windows and Linux names of each stage side by side.
-> Suggested file: `assets/img/boot-process.png`
-<!-- ![boot process](<../../assets/img/boot-process.png>) -->
+> 🖼️ **boot process flowchart**
+![boot process](<../../assets/img/boot-process.png>)
 
 Knowing the stages tells you where a boot problem is:
 

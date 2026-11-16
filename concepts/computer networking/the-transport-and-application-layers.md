@@ -96,10 +96,8 @@ Client                               Server
 Closing uses a **four-way** exchange: FIN → ACK, then the other side's FIN → ACK (each direction
 closes independently).
 
-> 🖼️ **Image idea: TCP handshake + teardown sequence diagram** - two vertical timelines, SYN /
-> SYN-ACK / ACK at the top, data in the middle, FIN/ACK/FIN/ACK at the bottom.
-> Suggested file: `assets/img/tcp-handshake.png`
-<!-- ![tcp handshake](<../../assets/img/tcp-handshake.png>) -->
+> 🖼️ **Image idea: TCP handshake + teardown sequence diagram**
+![tcp handshake](<../../assets/img/tcp-handshake.png>)
 
 ## TCP socket states
 

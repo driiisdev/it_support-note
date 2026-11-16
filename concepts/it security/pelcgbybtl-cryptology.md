@@ -68,10 +68,8 @@ What one key does, only the other undoes:
 | send a **secret** message to Bob | encrypt with **Bob's public key** → only Bob's private key can decrypt |
 | **prove** a message came from you (digital signature) | sign with **your private key** → anyone can verify with your public key |
 
-> 🖼️ **Image idea: public-key encryption vs digital signature** - two panels: Alice encrypting
-> with Bob's public key; Alice signing with her private key and Bob verifying with her public key.
-> Suggested file: `assets/img/asymmetric-encrypt-vs-sign.png`
-<!-- ![asymmetric encryption vs signature](<../../assets/img/asymmetric-encrypt-vs-sign.png>) -->
+> 🖼️ **Image idea: public-key encryption vs digital signature**
+![asymmetric encryption vs signature](<../../assets/img/asymmetric-encrypt-vs-sign.png>)
 
 | Algorithm | Used for |
 |---|---|
@@ -145,10 +143,8 @@ Root CA certificate (pre-installed in your OS/browser trust store, self-signed)
 - **Revocation** - compromised certificates are revoked (CRL lists, OCSP).
 - **Web of trust** (PGP) - an alternative to CAs: people sign each other's keys.
 
-> 🖼️ **Image idea: certificate chain of trust** - root → intermediate → leaf, each signing the next,
-> with the browser trust store holding the root.
-> Suggested file: `assets/img/cert-chain.png`
-<!-- ![certificate chain](<../../assets/img/cert-chain.png>) -->
+> 🖼️ **Image idea: certificate chain of trust**
+![certificate chain](<../../assets/img/cert-chain.png>)
 
 ## Cryptography in practice
 

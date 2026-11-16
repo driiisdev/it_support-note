@@ -39,10 +39,8 @@ The CPU switches between processes very quickly (**time slicing**) so they appea
 pstree -p          # process tree with PIDs
 ```
 
-> 🖼️ **Image idea: process tree** - systemd → sshd → bash → ls on the Linux side; wininit →
-> services.exe → svchost.exe and explorer.exe → chrome.exe on the Windows side.
-> Suggested file: `assets/img/process-tree.png`
-<!-- ![process tree](<../../assets/img/process-tree.png>) -->
+> 🖼️ **Image idea: process tree**
+![process tree](<../../assets/img/process-tree.png>)
 
 ## Viewing processes
 

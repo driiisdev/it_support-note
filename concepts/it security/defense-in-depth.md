@@ -23,10 +23,8 @@ logging makes sure you notice.
  +-----------------------------------------------------------+
 ```
 
-> 🖼️ **Image idea: defense in depth "onion"** - concentric rings like the ASCII above, an arrow
-> representing an attack being stopped at different layers.
-> Suggested file: `assets/img/defense-in-depth.png`
-<!-- ![defense in depth](<../../assets/img/defense-in-depth.png>) -->
+> 🖼️ **Image idea: defense in depth "onion"**
+![defense in depth](<../../assets/img/defense-in-depth.png>)
 
 ## Disabling unnecessary components
 

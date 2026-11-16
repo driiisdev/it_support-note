@@ -39,10 +39,8 @@ resolver -> ns1.example.com: "IP for www.example.com?"     -> "93.184.215.14, TT
 resolver -> laptop:          "93.184.215.14"  (and caches it for 3600 s)
 ```
 
-> 🖼️ **Image idea: recursive DNS lookup** - laptop, resolver, root, TLD, authoritative server
-> with numbered arrows for each step above.
-> Suggested file: `assets/img/dns-resolution.png`
-<!-- ![dns resolution](<../../assets/img/dns-resolution.png>) -->
+> 🖼️ **Image idea: recursive DNS lookup**
+![dns resolution](<../../assets/img/dns-resolution.png>)
 
 **Caching** happens at every level (browser, OS, resolver). **TTL** (Time To Live, seconds) says
 how long an answer may be cached. That's why a DNS change "takes time to propagate" - old answers
@@ -104,10 +102,8 @@ Client (no IP yet, src 0.0.0.0)                 DHCP server
 
 The REQUEST is broadcast so any *other* DHCP servers that offered an address know it was declined.
 
-> 🖼️ **Image idea: DHCP DORA sequence** - client and server timelines with the four messages,
-> noting broadcast vs unicast.
-> Suggested file: `assets/img/dhcp-dora.png`
-<!-- ![dhcp dora](<../../assets/img/dhcp-dora.png>) -->
+> 🖼️ **Image idea: DHCP DORA sequence**
+![dhcp dora](<../../assets/img/dhcp-dora.png>)
 
 ### Allocation types
 

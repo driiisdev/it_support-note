@@ -113,10 +113,8 @@ sudo modprobe <mod> # load a module
 dmesg | tail        # kernel messages - shows what happened when you plugged something in
 ```
 
-> 🖼️ **Image idea: Device Manager with a yellow-warning device** - screenshot showing the
-> triangle icon and the Driver tab (Update / Roll Back / Uninstall).
-> Suggested file: `assets/img/device-manager-warning.png`
-<!-- ![device manager warning](<../../assets/img/device-manager-warning.png>) -->
+> 🖼️ **Image idea: Device Manager with a yellow-warning device**
+![device manager warning](<../../assets/img/device-manager-warning.png>)
 
 ## Operating system updates
 

@@ -14,11 +14,8 @@ Raw disk  ->  Partition table (MBR / GPT)  ->  Partitions  ->  Format (file syst
    folders, sizes, permissions, and where the data blocks are).
 3. **Mount** - attach the file system so the OS can use it (`D:` on Windows, `/mnt/data` on Linux).
 
-> 🖼️ **Image idea: disk → partitions → file systems → mount points** - one physical disk split
-> into an EFI partition, a C: (NTFS) partition, and a recovery partition, and a Linux disk with
-> `/boot`, `/`, and swap.
-> Suggested file: `assets/img/disk-partitions.png`
-<!-- ![disk partitions](<../../assets/img/disk-partitions.png>) -->
+> 🖼️ **Image idea: disk → partitions → file systems → mount points**
+![disk partitions](<../../assets/img/disk-partitions.png>)
 
 ## Partition tables: MBR vs GPT
 

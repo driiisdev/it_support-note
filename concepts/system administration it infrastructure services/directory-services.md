@@ -59,10 +59,8 @@ CN=Jane Doe,OU=Sales,OU=Users,DC=corp,DC=example,DC=com
 | **OU** | Organizational Unit (a folder/container) |
 | **CN** | Common Name |
 
-> 🖼️ **Image idea: directory tree** - `corp.example.com` at the top, OUs for Users / Computers /
-> Groups, sub-OUs for departments, with the DN of one user traced along the path.
-> Suggested file: `assets/img/directory-tree.png`
-<!-- ![directory tree](<../../assets/img/directory-tree.png>) -->
+> 🖼️ **Image idea: directory tree**
+![directory tree](<../../assets/img/directory-tree.png>)
 
 ### OpenLDAP tools and LDIF
 
@@ -183,10 +181,8 @@ gpresult /h report.html  # detailed HTML report
 **RSoP** (Resultant Set of Policy) = the final combined result of all GPOs that apply - what
 `gpresult` shows.
 
-> 🖼️ **Image idea: GPO inheritance (LSDOU)** - nested boxes (Site ⊃ Domain ⊃ OU ⊃ child OU) with
-> GPOs attached at each level and the winning setting highlighted.
-> Suggested file: `assets/img/gpo-lsdou.png`
-<!-- ![gpo lsdou](<../../assets/img/gpo-lsdou.png>) -->
+> 🖼️ **Image idea: GPO inheritance (LSDOU)**
+![gpo lsdou](<../../assets/img/gpo-lsdou.png>)
 
 ### Troubleshooting Group Policy
 

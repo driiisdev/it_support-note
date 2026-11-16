@@ -17,10 +17,8 @@ safely**.
             +-----------------------------------------------------+
 ```
 
-> 🖼️ **Image idea: labeled motherboard** - photo or drawing of an ATX motherboard with the CPU
-> socket, RAM slots, PCIe slots, M.2 slot, SATA ports, 24-pin power, and CMOS battery labeled.
-> Suggested file: `assets/img/motherboard-labeled.png`
-<!-- ![motherboard labeled](<../../assets/img/motherboard-labeled.png>) -->
+> 🖼️ **labeled motherboard**
+![motherboard labeled](<../../assets/img/motherboard-labeled.png>)
 
 ### CPU (Central Processing Unit)
 
@@ -118,10 +116,8 @@ resets every time the PC is unplugged.
 7. Install expansion cards.
 8. Power on, enter UEFI, check that everything is detected, then install the OS.
 
-> 🖼️ **Image idea: ESD wrist strap + RAM installation** - a photo showing correct RAM notch
-> alignment and a grounded wrist strap.
-> Suggested file: `assets/img/esd-and-ram.png`
-<!-- ![esd and ram](<../../assets/img/esd-and-ram.png>) -->
+> 🖼️ **ESD wrist strap + RAM installation**
+![esd and ram](<../../assets/img/esd-and-ram.png>)
 
 ## Mobile devices
 

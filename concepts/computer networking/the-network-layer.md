@@ -51,10 +51,8 @@ lets data cross *many* networks to reach any device on the internet. Its protoco
 each router hop, the Ethernet frame is stripped and a *new* one is built for the next link - but
 the IP packet inside (except TTL and checksum) stays the same end to end.
 
-> 🖼️ **Image idea: packet crossing two routers** - show the same IP packet (same src/dst IP)
-> wrapped in a different Ethernet frame (different src/dst MAC) on each hop.
-> Suggested file: `assets/img/ip-hop-by-hop.png`
-<!-- ![ip hop by hop](<../../assets/img/ip-hop-by-hop.png>) -->
+> 🖼️ **Image idea: packet crossing two routers**
+![ip hop by hop](<../../assets/img/ip-hop-by-hop.png>)
 
 ## Address classes (historical)
 
@@ -175,10 +173,8 @@ Routers share what they know so tables are built automatically:
   with an **ASN** (Autonomous System Number), exchange routes. It is how the internet as a whole
   is routed.
 
-> 🖼️ **Image idea: distance-vector vs link-state** - two small 4-router diagrams: one where
-> routers pass distance lists to neighbors only, one where each floods its links to all.
-> Suggested file: `assets/img/dv-vs-link-state.png`
-<!-- ![distance vector vs link state](<../../assets/img/dv-vs-link-state.png>) -->
+> 🖼️ **Image idea: distance-vector vs link-state**
+![distance vector vs link state](<../../assets/img/dv-vs-link-state.png>)
 
 ## How it's used in real IT support
 

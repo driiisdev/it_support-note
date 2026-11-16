@@ -13,10 +13,8 @@ Every security control protects one or more of these:
 | **Integrity** | data isn't changed without authorization | tampering, MITM edits | hashes, digital signatures |
 | **Availability** | data/systems are accessible when needed | DoS, ransomware | redundancy, backups |
 
-> 🖼️ **Image idea: CIA triad triangle** - a triangle with one principle per corner and example
-> controls next to each.
-> Suggested file: `assets/img/cia-triad.png`
-<!-- ![cia triad](<../../assets/img/cia-triad.png>) -->
+> 🖼️ **Image idea: CIA triad triangle**
+![cia triad](<../../assets/img/cia-triad.png>)
 
 ## Essential terms
 
@@ -74,10 +72,8 @@ DoS examples:
 - **SYN flood** - sending many TCP SYNs and never completing the handshake, filling the server's
   half-open connection table.
 
-> 🖼️ **Image idea: man-in-the-middle** - user ↔ attacker ↔ server, with the attacker reading and
-> relaying both sides.
-> Suggested file: `assets/img/mitm.png`
-<!-- ![mitm](<../../assets/img/mitm.png>) -->
+> 🖼️ **Image idea: man-in-the-middle**
+![mitm](<../../assets/img/mitm.png>)
 
 ## Client-side attacks (injection)
 

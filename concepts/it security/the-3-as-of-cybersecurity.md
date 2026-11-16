@@ -11,10 +11,8 @@ Three separate questions, often confused:
 **Identification** (claiming an identity - typing a username) comes before authentication
 (proving it).
 
-> 🖼️ **Image idea: AAA flow** - a user passing three gates in order: "Who are you?" →
-> "What can you do?" → "Logged: what you did".
-> Suggested file: `assets/img/aaa-flow.png`
-<!-- ![aaa flow](<../../assets/img/aaa-flow.png>) -->
+> 🖼️ **Image idea: AAA flow**
+![aaa flow](<../../assets/img/aaa-flow.png>)
 
 ## Authentication
 

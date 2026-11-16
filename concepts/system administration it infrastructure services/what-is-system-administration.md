@@ -68,10 +68,8 @@ Procurement -> Deployment -> Maintenance -> Retirement
 4. **Retirement** - wipe data securely (see [Company culture for security](<../it security/company-culture-for-security.md>)),
    update inventory, recycle or resell.
 
-> 🖼️ **Image idea: hardware lifecycle** - circular diagram of the four stages with the key task of
-> each stage.
-> Suggested file: `assets/img/hardware-lifecycle.png`
-<!-- ![hardware lifecycle](<../../assets/img/hardware-lifecycle.png>) -->
+> 🖼️ **Image idea: hardware lifecycle**
+![hardware lifecycle](<../../assets/img/hardware-lifecycle.png>)
 
 ## Routine maintenance
 

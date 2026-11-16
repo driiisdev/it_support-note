@@ -15,10 +15,8 @@ user's day worse. Both are learnable methods, not talents.
 6. Verify + document    -> confirm with the user, write it up
 ```
 
-> 🖼️ **Image idea: troubleshooting flowchart** - the six steps above as a loop, with "not fixed?"
-> arrows going back to step 2.
-> Suggested file: `assets/img/troubleshooting-flow.png`
-<!-- ![troubleshooting flow](<../../assets/img/troubleshooting-flow.png>) -->
+> 🖼️ **troubleshooting flowchart**
+![troubleshooting flow](<../../assets/img/troubleshooting-flow.png>)
 
 ### 1. Ask questions
 

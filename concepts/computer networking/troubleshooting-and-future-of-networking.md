@@ -57,10 +57,8 @@ TTL=3 -> ...                                -> ...
 TTL=n -> destination replies                -> done
 ```
 
-> 🖼️ **Image idea: how traceroute uses TTL** - a path of routers with three probes stopping one
-> hop further each time, each returning an ICMP "time exceeded" arrow.
-> Suggested file: `assets/img/traceroute-ttl.png`
-<!-- ![traceroute ttl](<../../assets/img/traceroute-ttl.png>) -->
+> 🖼️ **Image idea: how traceroute uses TTL**
+![traceroute ttl](<../../assets/img/traceroute-ttl.png>)
 
 ```powershell
 tracert example.com           # Windows (ICMP)

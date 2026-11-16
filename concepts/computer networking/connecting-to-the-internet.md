@@ -28,10 +28,8 @@ into Ethernet.
 | **Cellular (4G/5G)** | radio | Mobile and fixed-wireless home internet; also used as office **failover**. |
 | **Satellite** | radio via satellites | Remote areas. Traditional geostationary = high latency (~600 ms); low-orbit constellations are much lower. |
 
-> 🖼️ **Image idea: FTTN vs FTTB vs FTTH** - a street diagram showing where fiber ends and copper
-> begins for each variant.
-> Suggested file: `assets/img/fiber-variants.png`
-<!-- ![fiber variants](<../../assets/img/fiber-variants.png>) -->
+> 🖼️ **Image idea: FTTN vs FTTB vs FTTH**
+![fiber variants](<../../assets/img/fiber-variants.png>)
 
 ## WAN technologies
 
@@ -74,10 +72,8 @@ Real-world throughput is much lower than these numbers (shared medium, distance,
 - **Interference** from overlapping channels is a top cause of slow Wi-Fi in offices and
   apartment buildings.
 
-> 🖼️ **Image idea: 2.4 GHz channel overlap** - the 11 (or 13) channels drawn as overlapping arcs,
-> with 1, 6, and 11 highlighted as non-overlapping.
-> Suggested file: `assets/img/wifi-channels.png`
-<!-- ![wifi channels](<../../assets/img/wifi-channels.png>) -->
+> 🖼️ **Image idea: 2.4 GHz channel overlap**
+![wifi channels](<../../assets/img/wifi-channels.png>)
 
 ### Network configurations
 

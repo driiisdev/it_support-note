@@ -44,10 +44,8 @@ mstsc /v:pc-042.company.local
 - For helping users, organizations often use remote-support tools (Quick Assist, TeamViewer,
   etc.) where **the user approves** the session.
 
-> 🖼️ **Image idea: SSH key authentication** - client holding the private key, server with the
-> public key in `authorized_keys`, and the challenge/response arrows between them.
-> Suggested file: `assets/img/ssh-key-auth.png`
-<!-- ![ssh key auth](<../../assets/img/ssh-key-auth.png>) -->
+> 🖼️ **Image idea: SSH key authentication**
+![ssh key auth](<../../assets/img/ssh-key-auth.png>)
 
 ## Virtualization
 

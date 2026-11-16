@@ -20,10 +20,8 @@ Sender's client --SMTP--> sender's mail server --SMTP--> recipient's mail server
                                                          <--IMAP-- recipient's phone/laptop
 ```
 
-> 🖼️ **Image idea: email flow** - the path above with the protocol on each arrow and the DNS MX
-> lookup shown as a side step.
-> Suggested file: `assets/img/email-flow.png`
-<!-- ![email flow](<../../assets/img/email-flow.png>) -->
+> 🖼️ **Image idea: email flow**
+![email flow](<../../assets/img/email-flow.png>)
 
 Most organizations use hosted email (Microsoft 365 / Exchange Online, Google Workspace) instead
 of running their own. Sysadmins still manage DNS records for it:

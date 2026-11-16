@@ -123,10 +123,8 @@ Every file has an **owner**, a **group**, and permissions for three classes:
 | w | change contents | create/delete files inside |
 | x | run as a program | enter it (`cd`) |
 
-> 🖼️ **Image idea: `ls -l` permission string breakdown** - the string above with colored
-> brackets for type / owner / group / others and the octal value under each triad.
-> Suggested file: `assets/img/linux-permissions.png`
-<!-- ![linux permissions](<../../assets/img/linux-permissions.png>) -->
+> 🖼️ **Image idea: `ls -l` permission string breakdown**
+![linux permissions](<../../assets/img/linux-permissions.png>)
 
 ### Changing permissions
 

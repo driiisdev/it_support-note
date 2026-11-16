@@ -39,10 +39,8 @@ Knowing where things came from explains a lot of today's weird naming and limits
 7. **Internet, mobile, cloud (1990s-today)** - computers become connected, then pocket-sized,
    then rented by the hour in someone else's data center.
 
-> 🖼️ **Image idea: timeline of computing** - a horizontal timeline from abacus → Babbage →
-> ENIAC → transistor → PC → smartphone → cloud.
-> Suggested file: `assets/img/computing-timeline.png`
-<!-- ![computing timeline](<../../assets/img/computing-timeline.png>) -->
+> 🖼️ **timeline of computing**
+![computing timeline](<../../assets/img/computing-timeline.png>)
 
 ## Digital logic: why everything is 0s and 1s
 
@@ -116,9 +114,8 @@ Transistors are combined into **logic gates** - the building blocks of every cal
 Combine enough of these and you get an adder, then an ALU, then a CPU. You'll meet AND again in
 networking - it's exactly how a **subnet mask** finds a network address.
 
-> 🖼️ **Image idea: logic gate symbols + truth tables** - AND/OR/NOT/XOR symbols side by side.
-> Suggested file: `assets/img/logic-gates.png`
-<!-- ![logic gates](<../../assets/img/logic-gates.png>) -->
+> 🖼️ **logic gate symbols + truth tables**
+![logic gates](<../../assets/img/logic-gates.png>)
 
 ## The layers of a computer
 
